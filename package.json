@@ -1,0 +1,36 @@
+{
+  "name": "has-setter",
+  "version": "1.0.0",
+  "description": "Checks if an object has a property with a defined setter function.",
+  "keywords": [
+    "object",
+    "property",
+    "descriptor",
+    "set",
+    "setter",
+    "function",
+    "check",
+    "has"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/has-setter",
+  "repository": "lamansky/has-setter",
+  "main": "index.js",
+  "dependencies": {
+    "get-property-descriptor": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
